@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python problem1_seq2seq.py)",
+      "Bash(python problem2_gcn.py)",
+      "Bash(python problem3_normalization.py)",
+      "Bash(python problem4_optimizer.py)",
+      "Bash(pip install *)",
+      "Bash(python generate_report.py)",
+      "Bash(python -c ' *)",
+      "Bash(awk '{print $9, $5}')",
+      "Bash(python -c \"import numpy as np; r = np.load\\('problem1_results.npy', allow_pickle=True\\).item\\(\\); print\\('RNN - in_dist:', r['rnn']['in_dist'], 'large_val:', r['rnn']['large_val'], 'long_seq:', r['rnn']['long_seq']\\); print\\('LSTM - in_dist:', r['lstm']['in_dist'], 'large_val:', r['lstm']['large_val'], 'long_seq:', r['lstm']['long_seq']\\)\")",
+      "Bash(python problem1_complete_test.py)"
+    ]
+  }
+}
